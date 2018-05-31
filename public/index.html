@@ -19,14 +19,22 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.34.2/es6-shim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.34.2/es6-sham.min.js"></script>
     <script src="https://wzrd.in/standalone/es7-shim@latest"></script>
-    <!--<script src="js/es5-shim.min.js"></script>
-      <script src="js/es5-sham.min.js"></script>
-      <script src="js/json3.min.js"></script>
-      <script src="js/es6-shim.min.js"></script>
-      <script src="js/es6-sham.min.js"></script>
-      <script src="js/es7-shim@latest.js"></script>
-    -->
-    <!--<script src="https://wzrd.in/standalone/es7-shim@latest"></script>-->
+    <script src="%PUBLIC_URL%/es.js"></script>
+    <script type="text/javascript">
+          var browser = navigator.appName
+          var b_version = navigator.appVersion;
+          var version = b_version.split(";");
+          var trim_Version = version[1].replace(/[ ]/g,"");
+          if (browser=="Microsoft Internet Explorer" && trim_Version=="MSIE6.0") {
+              alert("您的浏览器版本过低，请使用最新版！");
+          } else if (browser=="Microsoft Internet Explorer" && trim_Version=="MSIE7.0") {
+              alert("您的浏览器版本过低，请使用最新版！");
+          } else if (browser=="Microsoft Internet Explorer" && trim_Version=="MSIE8.0") {
+              alert("您的浏览器版本过低，请使用最新版！");
+          } else if (browser=="Microsoft Internet Explorer" && trim_Version=="MSIE9.0") {
+              alert("您的浏览器版本过低，请使用最新版！");
+          }
+        </script>
 
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
