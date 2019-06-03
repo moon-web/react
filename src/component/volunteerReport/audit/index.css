@@ -1,0 +1,18 @@
+.report-audit.container .content {
+    padding: 24px;
+}
+.report-audit.container .btns .reject{
+    background: #FFBB6E;
+    border-color: #FFBB6E;
+    color: #fff;
+}
+.report-audit.container .btns .reject:hover, .report-audit.container .btns .reject:focus {
+    color: #ffffff;
+    background-color: #FFD19C;
+    border-color: #FFD19C;
+}
+.report-audit.container .btns .reject:active, .report-audit.container .btns .reject.active {
+    color: #ffffff;
+    background-color: #FFD19C;
+    border-color: #FFD19C;
+}

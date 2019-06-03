@@ -1,0 +1,97 @@
+.monitor-result .ant-tabs-nav-wrap {
+    background: unset;
+}
+.monitor-result .checkbox-icon {
+    width: 14px;
+    height: 14px;
+    vertical-align: text-bottom;
+    margin-right: 3px;
+}
+.monitor-result .search-check .ant-checkbox-wrapper {
+    margin-left: 0;
+    margin-right: 8px;
+    line-height: 32px;
+}
+.monitor-result .search-check .ant-checkbox-wrapper span+span {
+    padding-right: 0;
+}
+.monitor-result .ant-card-body {
+    padding: 0;
+}
+.monitor-result .ant-select-dropdown-menu-item {
+    white-space: normal;
+}
+.monitor-result .table-info {
+    text-align: left;
+}
+.monitor-result .table-item {
+    vertical-align: top;
+}
+.monitor-result .table-info .table-item-span {
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+}
+/* .monitor-result .table-info .table-item-span .img{
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px
+} */
+.monitor-result .table-info .tabel-img-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.monitor-result .table-info .tabel-img-wrap .item-label-span{
+    margin-right: 10px
+}
+.monitor-result .table-info .tabel-img-info {
+    white-space: normal;
+}
+.monitor-result .table-info .tabel-img-item {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+.monitor-result .table-info .tabel-img-item img {
+    width: 60px;
+    height: 60px;
+}
+
+.monitor-result .table-info .table-item-w100 {
+    width: 100%;
+}
+.monitor-result .table-info .table-item-w50 {
+    width: 50%;
+}
+.monitor-result-modal .ant-form-item-children .ant-input-group .ant-input{
+    display: inline-block;
+}
+.search-opt .search-opt-wrap, 
+.ant-select .search-opt-wrap  {
+    display: flex;
+    flex-direction: row;
+} 
+.search-opt .opt-name,
+.ant-select .opt-name
+ {
+    flex: 1;
+    width: 1%;
+}
+.search-opt .opt-pending,
+.ant-select .opt-pending {
+    width: 90px;
+}
+.monitor-result-modal .ant-select-selection-selected-value {
+    width: 100%;
+}

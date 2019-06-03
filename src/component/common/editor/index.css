@@ -1,0 +1,14 @@
+.w-e-text-container {
+    height: 500px !important;
+}
+.w-e-text-container img {
+    width: auto;
+    height: auto;
+    margin-right: 10px;
+}
+.w-e-toolbar .w-e-menu i{
+    font-size: 25px;
+}
+.w-e-toolbar .w-e-menu{
+    top:2px;
+}

@@ -1,0 +1,153 @@
+{
+    "investigation.report.pepole":"申请人",
+    "investigation.report.please.input.the.applicant":"请输入申请人",
+    "investigation.report.already.issued":"已发放",
+    "investigation.report.unissued":"未发放",
+    "investigation.report.money":"申请金额",
+    "investigation.application.for.award.details":"申请奖励发放详情",
+    "investigation.essential.information":"基本信息",
+    "investigation.amount.of.cash":"提现金额",
+    "investigation.emergency.contact":"紧急联系人",
+    "investigation.bank.card.number":"银行卡号",
+    "investigation.emergency.contact.telephone":"紧急联系人电话",
+    "investigation.bank.account.information":"开户行信息",
+    "investigation.name.of.account.holder":"开户人姓名",
+    "investigation.positive.and.negative.identity.cards":"身份证正反面",
+    "investigation.cue.name":"线索名称",
+    "investigation.please.enter.cue.name":"请输入线索名称",
+    "investigation.please.select.lead.type":"请选择线索类型",
+    "investigation.lead.type":"线索类型",
+    "investigation.lead.status":"线索状态",
+    "investigation.please.select.lead.status":"请选择线索状态",
+    "investigation.name.of.informant":"举报人名称",
+    "investigation.please.enter.name.of.informant":"请输入举报人名称",
+    "investigation.cell.phone":"举报人手机",
+    "investigation.please.enter.cell.phone":"请输入举报人手机",
+    "investigation.name.of.reporting.clues":"举报线索名称",
+    "investigation.select.investigators":"选择调查员",
+    "investigation.awards":"调查奖励",
+    "investigation.please.enter.awards":"请输入调查奖励",
+    "investigation.response.time":"响应时间",
+    "investigation.please.select.response.time":"请选择响应时间",
+    "investigation.law.enforcement.award":"调查+执法奖励",
+    "investigation.please.enter.law.enforcement.award":"请输入调查+执法奖励",
+    "investigation.law.awards":"执法奖励",
+    "investigation.please.enter.law.awards":"请输入执法奖励",
+    "investigation.detail.task.phase":"任务阶段",
+    "investigation.detail.clue.reward":"线索奖励",
+    "investigation.detail.clue.information":"线索信息",
+    "investigation.detail.task.schedule":"任务进度",
+    "investigation.detail.task.log":"任务日志",
+    "investigation.detail.case.address":"案件地址",
+    "investigation.detail.business.address":"经营点地址",
+    "investigation.detail.nature.of.the.case":"案件性质",
+    "investigation.detail.criminal.suspect":"嫌疑人",
+    "investigation.detail.suspect.name":"嫌疑人姓名",
+    "investigation.detail.suspect.phone":"嫌疑人手机",
+    "investigation.detail.suspect.wechart":"嫌疑人微信",
+    "investigation.detail.taobao.shop":"淘宝店铺",
+    "investigation.detail.estimated.quantity.of.commodities":"预计商品数量",
+    "investigation.detail.estimated.commodity.amount":"预计商品金额",
+    "investigation.detail.have.resources":"拥有资源",
+    "investigation.detail.note":"备注",
+    "investigation.detail.infringing.merchandise.photos":"侵权商品照片",
+    "investigation.detail.law.enforcement.communication":"执法沟通",
+    "investigation.detail.law.enforcement.resources":"执法资源情况",
+    "investigation.detail.report.a.case":"报案",
+    "investigation.detail.strike.time":"打击时间",
+    "investigation.detail.notice.of.filing":"立案通知书",
+    "investigation.detail.action.report":"行动报告",
+    "investigation.detail.law.enforcement.documents":"执法文书",
+    "investigation.detail.criminal.suspect.info":"嫌疑人信息",
+    "investigation.detail.time.of.investigation":"调查时间",
+    "investigation.detail.full.name":"姓名",
+    "investigation.detail.phone":"电话",
+    "investigation.detail.place.of.residence":"居住地",
+    "investigation.detail.address.information":"地址信息",
+    "investigation.detail.place.of.operation":"经营地点",
+    "investigation.detail.quantity.of.goods":"货物数量",
+    "investigation.detail.picutre":"图片",
+    "investigation.detail.please.input.the.reward.amount":"请输入线索奖励金额",
+    "investigation.detail.investigation.awards":"调查奖励",
+    "investigation.detail.law.enforcement.award":"执法奖励",
+    "investigation.task.name":"任务名称",
+    "investigation.task.type":"任务类型",
+    "investigation.task.Name.person":"任务人姓名",
+    "investigation.task.status":"任务状态",
+    "investigation.task.case.type":"案件类型",
+    "investigation.task.cue.name":"任务名称",
+    "investigation.please.enter.task.cue.name":"请输入任务名称",
+    "investigation.please.select.task.lead.type":"请选择任务类型",
+    "investigation.please.select.task.lead.status":"请选择任务状态",
+    "investigation.task.name.of.informant":"任务人名称",
+    "investigation.please.enter.task.name.of.informant":"请输入任务人名称",
+    "investigation.task.cell.phone":"任务人手机",
+    "investigation.please.enter.task.cell.phone":"请输入任务人手机",
+    "investigation.please.investigation.select.investigators":"请选择调查员",
+    "investigation.detail.resources":"调查资源",
+    "investigation.detail.lawresources":"执法资源",
+    "investigation.detail.nothing":"无",
+    "investigation.detail.has":"有",
+    "investigation.detail.public.security":"公安",
+    "investigation.detail.business.circles":"工商",
+    "investigation.detail.quality.testing":"质检",
+    "investigation.detail.report.case":"已报案",
+    "investigation.detail.not.report":"未报案",
+    "investigation.lead.type.task":"任务类型",
+    "investigation.detail.group.members":"组团人员",
+    "investigation.detail.negotiated.amount":"协商金额",
+    "investigation.investigation.mission":"调查任务中",
+    "investigation.law.enforcement.tasks":"执法任务中",
+    "investigation.investigation.and.enforcement.tasks":"调查加执法任务中",
+    "investigation.mission abort":"任务中止",
+    "investigation.completion.of.the.task":"任务完结",
+    "investigation.consultation":"协商中",
+    "investigation.detail.negotiated.time":"协商时间",
+    "investigation.task.application.for.acceptance":"申请验收",
+    "investigation.task":"调查任务",
+    "investigation.law.task":"执法任务",
+    "investigation.law.enforcement.mission":"调查+执法任务",
+    "investigation.detail.investigation.link":"调查环节",
+    "investigation.detail.law.enforcement.link":"执法环节",
+    "investigation.detail.warehouse.address":"仓库地址",
+    "investigation.detail.warehouse.num":"仓库货物数量",
+    "investigation.detail.factory.address":"工厂地址",
+    "investigation.detail.factory.production":"工厂生产情况",
+    "investigation.detail.to.be.confirmed":"待确认",
+    "investigation.detail.confirmed":"已确认",
+    "investigation.no.data":"暂无数据",
+    "investigation.please.input.thread.rewards":"请输入线索奖励",
+    "investigation.please.select.investigators":"请选择调查员",
+    "investigation.please.select.the.survey.response.time":"请选择调查响应时间",
+    "investigation.Please.enter.the.amount.of.investigation.enforcement.award":"请输入调查+执法奖励金额",
+    "investigation.please.select.the.survey.enforcement.time":"请选择调查+执法响应时间",
+    "investigation.please.enter.the.amount.enforcement.award":"请输入执法奖励金额",
+    "investigation.please.choose.the.response.time":"请选择执法响应时间"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}

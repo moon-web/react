@@ -1,0 +1,12 @@
+.dateWrapper{
+    display: block;
+    float: left;
+    padding:0 10px;
+}
+.dateWrapper .dateinfo{
+    display: block;
+    float: left;
+    font-size: 14px;
+    color:#668fff;
+    line-height: 32px;
+}

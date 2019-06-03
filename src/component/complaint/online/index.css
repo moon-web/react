@@ -1,0 +1,27 @@
+.online-wrapper .ant-table-content .table-info .table-item  .item-link {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+.online-wrapper .table-info .confirmation-img {
+	width: 60px;
+	height: 60px;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.table-lable-img-box {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-left: 10px;
+}
+.online-wrapper .shops .shops-img {
+	width: 60px;
+	height: 60px;
+}

@@ -1,0 +1,59 @@
+.report-list table {
+  table-layout: unset;
+}
+.report-list .ant-table p{
+  margin-bottom: 0;
+}
+.report-list .link-wrap {
+  padding-bottom: 20px;
+}
+.report-list .tabel-img-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.report-list .tabel-img-info {
+  white-space: normal;
+}
+.report-list .tabel-img-item {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+.report-list .tabel-img {
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+.report-list .tabel-info {
+  text-align: left;
+}
+.report-list .tabel-info .tabel-info-item {
+  padding-bottom: 5px;
+  /* display: flex;
+  flex-direction: row; */
+}
+.report-list .tabel-info .item-label-span {
+  margin-right: 10px;
+}
+.report-list .tabel-info .item-info-span.item-link {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+.report-list .tabel-info .item-info-span {
+  white-space: normal;
+}
+.report-list .reason {
+  word-break:normal;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  width: 100px;
+}

@@ -1,0 +1,28 @@
+.brand-edit-wrapper .edit-info-title {
+	font-size: 18px;
+	font-family: PingFangSC-Medium;
+    color: #002140;
+    height: 50px;
+    line-height: 36px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+}
+.brand-edit-wrapper .brand-edit-box{
+	border-bottom: 1px solid #e8e8e8;
+}
+.brand-edit-wrapper .timeBtag {
+    padding-left: 20px;
+    text-align: left
+}
+.brand-edit-wrapper .btns {
+    text-align: center;
+}
+.brand-edit-wrapper .btns .ant-btn {
+    margin-left: 15px;
+}
+.brand-edit-wrapper .btns .ant-btn:first-child {
+    margin-left: 0;
+}
+.root .isBrandLawyer .ant-form-item-label{
+    width: auto;
+}

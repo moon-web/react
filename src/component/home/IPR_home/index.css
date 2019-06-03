@@ -1,0 +1,193 @@
+/* 权利人首页 */
+.ipr-home.container .content {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+.ipr-home .ant-card {
+    margin-bottom: 20px;
+}
+.ipr-home .ant-card:first-child .content{
+    cursor: pointer;
+}
+.ipr-home .ant-card:last-child {
+    margin-bottom: 0;
+}
+.ipr-home .ant-card-body {
+    padding: 15px 20px;
+}
+.ipr-home .no-data .ant-card-body .content {
+    height: 260px;
+}
+.ipr-home .content {
+    position: relative;
+}
+.ipr-home .top {
+    border-bottom: 1px solid #e8e8e8;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.ipr-home .top_item {
+    width: 220px;
+    height: 98px;
+    padding: 12px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 1440px) {
+    .ipr-home .top_item {
+        width: 180px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .ipr-home .top_item {
+        width: 160px;
+    }
+}
+.ipr-home .top_item:nth-child(1) {
+    background-image: url(../../../assets/images/pic1.png);
+}
+.ipr-home .top_item:nth-child(2) {
+    background-image: url(../../../assets/images/pic2.png);
+}
+.ipr-home .top_item:nth-child(3) {
+    background-image: url(../../../assets/images/pic3.png);
+}
+.ipr-home .top_item:nth-child(4) {
+    background-image: url(../../../assets/images/pic4.png);
+}
+.ipr-home .top_item:nth-child(5) {
+    background-image: url(../../../assets/images/pic5.png);
+}
+.ipr-home .top_item:nth-child(1) .top_icon {
+    background: url(../../../assets/images/icon1.png) no-repeat center;
+}
+.ipr-home .top_item:nth-child(2) .top_icon {
+    background: url(../../../assets/images/icon2.png) no-repeat center;
+}
+.ipr-home .top_item:nth-child(3) .top_icon {
+    background: url(../../../assets/images/icon3.png) no-repeat center;
+}
+.ipr-home .top_item:nth-child(4) .top_icon {
+    background: url(../../../assets/images/icon4.png) no-repeat center;
+}
+.ipr-home .top_item:nth-child(5) .top_icon {
+    background: url(../../../assets/images/icon5.png) no-repeat center;
+}
+.ipr-home .top_item .top_item_text {
+    display: flex;
+    flex-direction: row;
+}
+.ipr-home .top_item .top_icon {
+    width: 22px;
+    height: 22px;
+}
+.ipr-home .top_item .top_text {
+    flex: 1;
+    height: 34px;
+    line-height: 17px;
+    overflow: hidden;
+    padding-left: 8px;
+    color: #fff;
+}
+.ipr-home .top_item .top_item_num {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.ipr-home .bottom {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.ipr-home .bottom_item {
+    flex: 1;
+    padding-left: 30px;
+}
+.ipr-home .bottom_item:first-child {
+    padding-left: 0;
+}
+.ipr-home .border-right {
+    border-right: 1px solid #e8e8e8;
+}
+.ipr-home .bottom_item:last-child {
+    border-right: none;
+}
+.ipr-home .item_title {
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #485564;
+}
+.ipr-home .item_bottom {
+    display: flex;
+    flex-direction: row;
+}
+.ipr-home .bottom_money {
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    height: 120px;
+}
+.ipr-home .item_desc {
+    flex: 1;
+}
+.ipr-home .item_ratio {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ipr-home .pie_wrap {
+    width: 120px;
+    height: 120px;
+}
+@media screen and (max-width: 1280px) {
+    .ipr-home .pie_wrap {
+        width: 90px;
+        height: 90px;
+    }
+}
+.ipr-home .pie {
+    height: 100%;
+    width: 100%;
+}
+.ipr-home .modal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255,255,255,.7);
+    font-size: 30px;
+}
+.ipr-home .modal .modal-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 730px;
+    height: 180px;
+    margin: auto;
+}
+.ipr-home .modal .msg {
+    line-height: 40px;
+    font-size: 28px;
+    color: #485564;
+    text-align: center;
+}
+.ipr-home .modal .bkg {
+    width: 157px;
+    height: 139px;
+    margin: 0 auto;
+}

@@ -1,0 +1,220 @@
+.top-nav-wrapper {
+	width: 100%;
+	margin: auto;
+}
+.top-nav-left {
+	width: auto;
+    height: 64px;
+    position: relative;
+    line-height: 64px;
+    transition: all .3s;
+    overflow: hidden;
+	display: flex;
+	flex: 1 1;
+}
+.top-nav-left .top-nav-title {
+	width: 200px;
+	margin-right: 20px;
+}
+.top-nav-left img {
+	display: inline-block;
+    vertical-align: middle;
+    height: 32px;
+}
+.top-nav-left h1{
+	color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    margin: 0 0 0 12px;
+    font-weight: 400;
+}
+
+.ant-menu-dark.ant-menu-horizontal {
+	border-bottom: 0;
+	height: 64px;
+	max-width: 650px;
+}
+.top-nav-left .ant-menu-submenu.ant-menu-submenu-horizontal {
+	height: 64px;
+	line-height: 64px;
+}
+.top-nav-left .ant-menu-horizontal .ant-menu-item {
+	line-height: 64px;
+	height: 64px;
+}
+
+.header-top-right {
+    display: flex;
+    background: #fbfbfb;
+}
+
+.header-top-wrapper .header-top-right {
+	background: none;
+	display: flex;
+	flex: 1 1;
+	background: #001529;
+	height: 64px;
+}
+.header-top-right-lan {
+	margin: 0 10px
+}
+.header-top-right .header-top-right-setting {
+	line-height: 64px;
+	cursor: pointer;
+	display: flex;
+	flex: 1 1;
+	color: #fff;
+	font-size: 14px;
+	justify-content: flex-end;
+}
+.header-top-right .header-top-right-resetting {
+	color: #808080;
+	line-height: 64px;
+	cursor: pointer;
+	display: flex;
+	flex: 1 1;
+	font-size: 14px;
+	justify-content: flex-end;
+}
+.header-top-right .header-top-setting .anticon-setting{
+	color: #fff
+}
+.header-top-right .header-top-setting .anticon svg {
+	width: 18px;
+	height: 18px;
+	margin-right: 10px
+}
+.header-top-wrapper .header-top-right .header-right-account{
+	color: #fff;
+    max-width: 120px;
+    display: inline-block;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    margin-left:10px;
+}
+
+.setting-type {
+	display: flex;
+	flex: 1 1;
+}
+.setting-type span{
+	flex: 1;
+	margin: 0 10px
+}
+.setting-type span:hover {
+	color: #668fff
+}
+.layout-type-content {
+	max-width: 1200px;
+	width: 1200px;
+	margin: auto
+}
+.root .layout-type-footer {
+	max-width: 1200px;
+	width: 1200px;
+	margin: auto;
+	padding:  0
+}
+.header-top-wrapper {
+	max-width: 1200px;
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	flex: 1 1;
+}
+@media screen and (max-width: 1450) {
+	.layout-type-content {
+		max-width: 1200px;
+		width: 1200px;
+		margin: auto
+	}
+	.root .layout-type-footer {
+		max-width: 1200px;
+		width: 1200px;
+		margin: auto;
+		padding:  0
+	}
+	.header-top-wrapper {
+		max-width: 1200px;
+		width: 1200px;
+		margin: auto;
+		display: flex;
+		flex: 1 1;
+	}
+}
+@media screen and (min-width: 1500px) {
+	.layout-type-content {
+		max-width: 80%;
+		width: 80%;
+		margin: auto
+	}
+	.root .layout-type-footer {
+		max-width: 80%;
+		width: 80%;
+		margin: auto;
+		padding:  0
+	}
+	.header-top-wrapper {
+		max-width: 80%;
+		width: 80%;
+		margin: auto;
+		display: flex;
+		flex: 1 1;
+	}
+}
+.layout-type-content #index .container-index {
+	padding: 20px 0
+}
+.layout-type-content-common {
+	min-height: 600px;
+	background: #f0f2f5
+}
+.root .ant-layout-footer {
+	padding: 0
+}
+.layout-type-footer-common {
+	/* margin: 0 20px; */
+	padding: 0 20px;
+	background: #fff
+}
+.root .layout-type-content .container .content {
+	margin: 20px 0;
+}
+.root .ant-layout-footer {
+	padding: 0;
+	background-color: #FCFCFC;
+}
+.root .ant-layout-footer .footer {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 25px 0 20px 0;
+}
+.root .ant-layout-footer .footer .footer-item {
+	height: auto;
+	width: 220px;
+}
+.root .ant-layout-footer .footer .footer-item .footer-title {
+	font-size: 16px;
+	color: #002140;
+	height: 40px;
+	line-height: 40px;
+}
+.root .ant-layout-footer .footer .footer-item .footer-title > span,
+.root .ant-layout-footer .footer .footer-item .footer-title > img {
+	vertical-align: middle;
+}
+.root .ant-layout-footer .footer .footer-item .footer-title > img {
+	margin-right: 8px;
+	width: 19px;
+	height: 19px;
+}
+.root .ant-layout-footer .footer .footer-item .footer-info {
+	padding: 10px 0;
+	font-size: 14px;
+	color: #808080;
+	line-height: 22px;
+}

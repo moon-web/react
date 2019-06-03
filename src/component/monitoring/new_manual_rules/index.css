@@ -1,0 +1,14 @@
+.linkUrl {
+	display: block;
+	padding-left: 20px;
+	background: #f2f2f2
+}
+.new-monitoring-rules-wrapper .btns {
+    text-align: center;
+}
+.new-monitoring-rules-wrapper .btns .ant-btn {
+    margin-left: 15px;
+}
+.new-monitoring-rules-wrapper .btns .ant-btn:first-child {
+    margin-left: 0;
+}

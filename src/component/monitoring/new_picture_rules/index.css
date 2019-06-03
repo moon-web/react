@@ -1,0 +1,41 @@
+.root .pictureRulesWrapper{
+    width:100%;
+    height:auto;
+    display:block;
+    overflow: hidden;
+    padding-top:10px;
+}
+.pictureRulesWrapper .ant-col-24{
+    margin-bottom: 15px;
+}
+.pictureRulesWrapper .monitoringName{
+    margin-bottom:15px;
+}
+.pictureRulesWrapper .monitoringName .ant-form-item .ant-form-item-label{
+    line-height: 32px;
+}
+.pictureRulesWrapper .ant-upload-list {
+   width:300px;
+}
+.pictureRulesWrapper .ant-upload-list-item .anticon-close {
+    font-size: 14px;
+}
+.pictureRulesWrapper .ant-form-item label{
+    height:30px;
+}
+.pictureRulesWrapper .ant-upload-list-picture-card .anticon-close, .ant-upload-list-picture .anticon-close {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    line-height: 1;
+    opacity: 1;
+    cursor: pointer;
+}
+.pictureRulesWrapper .iconUpload{
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.root .filter-condition-condition .ant-form-item-control>.ant-form-item:last-child, .root .filter-condition-condition .ant-form-item [class^=ant-col-]>.ant-form-item:only-child{
+    margin-bottom:0px
+}

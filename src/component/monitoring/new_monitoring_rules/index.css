@@ -1,0 +1,50 @@
+.new-monitoring-rules .query_item_ok {
+	margin-right: 15px
+}
+.new-monitoring-rules-box .tab-contain {
+	padding: 20px 20px 10px 20px;
+	border: 1px solid #D9D9D9; 
+	border-radius: 4px;
+}
+.new-monitoring-rules-box .tab-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.new-monitoring-rules-box .tab-item {
+	margin-right: 20px;
+	padding: 0 15px;
+	height: 30px;
+	line-height: 30px;
+	background: #EDEDED;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 10px;
+	display: flex
+}
+.new-monitoring-rules-box .tab-item-active {
+	margin-right: 20px;
+	margin-bottom: 10px;
+	padding: 0 15px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 4px;
+	cursor: pointer;
+	color: #fff;
+	display: flex;
+	background: #668fff
+}
+.tab-contain .tab-box-list .ant-form-item-label {
+	text-align: left;
+	width: auto
+}
+.tab-contain .tab-box-list .ant-col-1 {
+	text-align: center
+}
+.tab-contain .tab-box-list .condition_add {
+	color: #668fff;
+	cursor: pointer;
+}
+.new-monitoring-rules-box .ant-input-number{
+	width: 100%;
+}

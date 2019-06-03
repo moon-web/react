@@ -1,0 +1,4 @@
+.root .authority .ant-table-tbody>tr>td, 
+.root .authority .ant-table-thead>tr>th {
+    text-align: left;
+}

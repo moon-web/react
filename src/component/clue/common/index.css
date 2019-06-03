@@ -1,0 +1,77 @@
+.clue-online .search-check .ant-checkbox-wrapper {
+    margin-left: 0;
+    margin-right: 8px;
+    line-height: 32px;
+}
+.clue-add-task .query_item_ok{
+    margin-right: 30px
+}
+.clue-add-task .ant-form-item-children{ 
+    z-index: 99
+}
+.clue-online .monitor-status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #f00;
+    display: flex;
+    margin-right: 10px
+}
+.ant-table .ant-table-body .table-info-status {
+    text-align: center
+}
+.ant-table .ant-table-body .table-info-status .table-item {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.ant-table .ant-table-body .table-info .table-item-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ant-table .ant-table-body .table-info .table-item-img img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.search-check .ant-checkbox-wrapper {
+    margin-left: 0;
+    margin-right: 8px;
+    line-height: 32px;
+}
+.root .table-info .table-item-w50 {
+    width: 50%;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+}
+.root .table-info .table-item-w50:first-child {
+    padding-right: 5px
+}
+.clue-add-task .ant-form-item-children .ant-calendar-picker {
+    width: 100% !important
+}
+.root .table-info .table-item .item-link {
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.clue-add-task-wrapper .btns {
+    text-align: center;
+}
+.clue-add-task-wrapper .btns .ant-btn {
+    margin-left: 15px;
+}
+.clue-add-task-wrapper .btns .ant-btn:first-child {
+    margin-left: 0;
+}
+.clue-add-task-wrapper .w-e-toolbar .w-e-menu i {
+    font-size: 16px;
+}

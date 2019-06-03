@@ -1,0 +1,84 @@
+.monitor-result-audit.container .content {
+    padding: 0;
+}
+.monitor-result-audit .search-form .ant-form-item-label {
+    width: 135px;
+}
+.monitor-result-audit .search-form .ant-form-item-children .ant-select,
+.monitor-result-audit .search-form .ant-form-item-children .ant-input{
+    width: 260px;
+    display: inline-block;
+    margin-right: 15px;
+}
+.monitor-result-audit .search-form .ant-btn {
+    margin-left: 0;
+}
+.monitor-result-audit .search-form .link .ant-input, 
+.monitor-result-audit .search-form .remark .ant-input {
+    width: 500px;
+}
+.monitor-result-audit .search-form .ant-upload-list {
+    width: 260px;
+}
+.monitor-result-audit .btns {
+    text-align: center;
+}
+.monitor-result-audit .btns .ant-btn {
+    margin-left: 15px;
+}
+.monitor-result-audit .btns .ant-btn:first-child {
+    margin-left: 0;
+}
+.monitor-result-audit .channel-list .channel-item {
+    float: left;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 210px;
+    background: url('../../../assets/images/channel-bg.png') no-repeat center / cover;
+}
+.monitor-result-audit .channel-list .channel-item.active {
+    background: url('../../../assets/images/channel-active-bg.png') no-repeat center / cover;
+}
+.monitor-result-audit .channel-list .channel-item p {
+    margin-bottom: 0;
+    line-height: 20px;
+    height: 20px;
+    font-size: 14px;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.monitor-result-audit .modal-info .ant-radio-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.monitor-result-audit .modal-info .ant-radio-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.monitor-result-audit .modal-info .radio-img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+.monitor-result-audit .modal-info .radio-img img {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.monitor-result-audit .modal-info .radio-title {
+    width: 120px;
+    line-height: 25px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+

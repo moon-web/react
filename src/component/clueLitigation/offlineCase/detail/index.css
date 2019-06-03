@@ -1,0 +1,26 @@
+.findings .findings-form{
+    width: 100%;
+    height: auto;
+    background: #f4f7ff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.findings .findings-form .fileStr{
+    margin-top: 10px;
+}
+.findings .findings-form .submit-btns{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+.lawsuits-detail .head-r .offline-btns{
+    margin-top: 10px;
+    width: 120px;
+}
+.offline-enclosure{
+    width: 100%;
+    margin-bottom: 0px;
+}
+.offline-enclosure li{
+    width: 100%;
+}

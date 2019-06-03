@@ -1,0 +1,11 @@
+.complaint_account_wrapper .complaint_account_cookie {
+	cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.complaint_account_wrapper .complaint_account_cookie_status {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

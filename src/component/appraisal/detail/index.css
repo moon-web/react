@@ -1,0 +1,9 @@
+.appraisal-detail .search-form .ant-form-item-label {
+    width: 100px;
+    line-height: 32px;
+}
+.appraisal-detail .title {
+	font-size: 22px;
+	margin-bottom: 20px;
+	padding-left: 20px
+}

@@ -1,0 +1,17 @@
+{
+	"appraisal.case.name":"Case name",
+	"appraisal.please.case.name":"Please enter the name of the case",
+	"appraisal.law.enforcement":"Law enforcement unit",
+	"appraisal.please.law.enforcement":"Please input the law enforcement unit",
+	"appraisal.enforcement.officer":"Name of law enforcement officer",
+	"appraisal.please.enforcement.officer":"Please input the name of the law enforcement officer",
+	"appraisal.law.phone":"Law enforcement telephone",
+	"appraisal.please.law.phone":"Please input the law enforcement telephone",
+	"appraisal.please.state.law.enforcement":"State of law enforcement",
+	"appraisal.law.time":"Law enforcement time",
+	"appraisal.tort.category":"Tort category",
+	"appraisal.involve.brand":"Involve brand",
+	"appraisal.quantity.goods":"Quantity of goods",
+	"appraisal.expected.identification.time":"Expected identification time",
+	"appraisal.base.info":"Essential information"
+}

@@ -1,0 +1,79 @@
+.rulesDetails{
+    width:100%;
+    height:auto;
+    display: block;
+    overflow: hidden;
+}
+.rulesDetails .rulesDetailslist:last-child{
+    border-bottom:0
+}
+.rulesDetails .rulesDetailslist{
+    width:100%;
+    height:auto;
+    padding-top:20px;
+    border-bottom:1px solid #e8e8e8;
+    padding-bottom:10px;
+}
+.rulesDetails .rulesDetailslist .title{
+    color:#002140;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.rulesDetails .ant-form-item label{
+    color:#002140;
+    font-size: 14px;
+}
+.rulesDetails .rulesDetailslist .text{
+    flex:1
+}
+.rulesDetails rulesDetailslistLable{
+    width:100%;
+    display:blcok;
+    float: left;
+}
+.rulesDetails .rulesDetailslistLable .ruleImg{
+    width:60px;
+    height:60px;
+    cursor: pointer;
+}
+.rulesDetails .rulesDetailslistLable .ruleImg img{
+    width:100%;
+}
+.root .rulesDetailslistLable .ant-form-item-label{
+    width:auto
+}
+.rulesDetails .filtration{
+    display:block;
+    float:left;
+    font-size: 14px;
+    padding-left:5px;
+}
+.rulesDetails .and{
+    padding:0px 30px;
+}
+.rulesDetails .and-connect {
+    padding:0px 5px;
+}
+.rulesDetails .rulesDetailslistLable .keyword{
+    display:block;
+    float: left;
+    font-weight: 600;
+}
+.rulesDetails .rulesDetailslist .price{
+    padding:0 5px;
+}
+.rulesDetails .rulesDetailslist .urlList{
+    width:500px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding:0 10px;
+}
+.rulesDetails .rulesDetailslist .urlList a{ 
+    line-height: 30px;
+    font-size: 14px;
+}
+.rulesDetailslist:nth-child(3) :nth-child(2) .element{
+    margin-left:24px;
+}

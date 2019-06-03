@@ -1,0 +1,137 @@
+.cleanliness-settlement-info{
+    width: 80%;
+    display: block;
+    float: left;
+    padding-bottom: 10px;
+}
+.cleanliness-settlement-btn{
+    width: 15%;
+    display: block;
+    float: right;
+}
+.cleanliness-settlement-info .cleanliness-settlement-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    margin-bottom: 0px;
+}
+.cleanliness-settlement-info  .cleanliness-settlement-content li{
+    margin-right: 5%;
+    /* width: 20%; */
+}
+.cleanliness-settlement-info  .cleanliness-settlement-content li .label{
+    margin-right: 10px;
+    text-align: right;
+    display: block;
+    float: left;
+}
+.cleanliness-settlement-info  .cleanliness-settlement-content .label, .cleanliness-settlement-info  .cleanliness-settlement-content li .input-content{
+    font-size: 14px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 0.85);
+}
+.cleanliness-settlement-btn .cleanliness{
+    width: 100%;
+    font-size: 20px;
+}
+.cleanliness-settlement-info  .cleanliness-settlement-content li .input-content{
+    word-break: break-all;
+    max-width: 200px;
+}
+.cleanliness-settlement-btn .cleanliness .cleanliness-num{
+    color: red;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+    display: block;
+}
+.brand-edit-box{
+    margin-bottom: 20px;
+}
+.root .search-form .cleanliness-settlement-btn .cleanliness-submit{
+    margin:0 auto;
+    display: block;
+}
+.brand-edit-box .fileList-wrapper{
+    padding-left: 50px;
+    width: 85%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+.root .cleanlinss-caluculation .ant-form-item-label{
+    width:auto;
+}
+ .brand-edit-box .fileList-wrapper .fileList-img{
+    width: 120px;
+    height: 120px;
+    display: block;
+    float: left;
+    margin-right: 20px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+    cursor: pointer;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.brand-edit-box .fileList-wrapper .fileList-img img{
+    width: 100%;
+}
+.alert-brand-claen .role{
+    color: #f5222d;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.alert-brand-claen .green{
+    color:#1890ff;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.alert-brand-claen{
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+.alert-brand-claen>span{
+    display: block;
+    float: left;
+}
+.alert-brand-claen .alert-flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.clean-liness-detailStatus .ant-badge-status-dot{
+    width: 10px;
+    height: 10px
+}
+.clean-liness-remark{
+    width: 100%;
+}
+.clean-liness-white{
+    color: red;
+    margin-bottom: 0px;
+}
+.root .search-form .distribution .ant-form-item-label{
+    width: auto;
+    line-height: 32px;
+}
+.root .search-form .distribution  .ant-form-item {
+    margin-left: 0
+}
+.monitor-result .table-info .table-item .img{
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px
+}

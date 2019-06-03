@@ -1,7 +1,7 @@
 // In production, we register a service worker to serve assets from local cache.
 
 // This lets the app load faster on subsequent visits in production, and gives
-// it online capabilities. However, it also means that developers (and users)
+// it offline capabilities. However, it also means that developers (and users)
 // will only see deployed updates on the "N+1" visit to a page, since previously
 // cached resources are updated in the background.
 
@@ -60,8 +60,8 @@ function registerValidSW(swUrl) {
             } else {
               // At this point, everything has been precached.
               // It's the perfect time to display a
-              // "Content is cached for online use." message.
-              console.log('Content is cached for online use.');
+              // "Content is cached for offline use." message.
+              console.log('Content is cached for offline use.');
             }
           }
         };
@@ -94,7 +94,7 @@ function checkValidServiceWorker(swUrl) {
     })
     .catch(() => {
       console.log(
-        'No internet connection found. App is running in online mode.'
+        'No internet connection found. App is running in offline mode.'
       );
     });
 }

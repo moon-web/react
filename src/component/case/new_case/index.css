@@ -1,0 +1,32 @@
+.new-addcase-infomation .ant-col-24 .ant-form-item,.ant-col-12 .ant-form-item{
+    padding-bottom: 10px;
+}
+.search-form .enterprise{
+    margin-top:10px;
+}
+.new-addcase-infomation .query_condition{
+    margin-left:0
+}
+.query_item .commodity{
+    width: 70%;
+    float: left;
+    word-break: break-all;
+    word-wrap: break-word;
+    padding-left:10px;
+}
+.query_item .commodityLable{
+    width:95px;
+    line-height: 32px;
+    text-align: right;
+    display: block;
+    float: left;
+}
+.root .newCase .ant-form-item-label{
+    width:110px;
+}
+.root .newCase .ant-form-item-control-wrapper {
+    margin-left: 10px;
+}
+.newCase .btns {
+    text-align: center;
+}

@@ -1,0 +1,17 @@
+{
+	"appraisal.case.name":"案件名称",
+	"appraisal.please.case.name":"请输入案件名称",
+	"appraisal.law.enforcement":"执法单位",
+	"appraisal.please.law.enforcement":"请输入执法单位",
+	"appraisal.enforcement.officer":"执法人姓名",
+	"appraisal.please.enforcement.officer":"请输入执法人姓名",
+	"appraisal.law.phone":"执法人电话",
+	"appraisal.please.law.phone":"请输入执法人电话",
+	"appraisal.please.state.law.enforcement":"执法状态",
+	"appraisal.law.time":"执法时间",
+	"appraisal.tort.category":"侵权类目",
+	"appraisal.involve.brand":"涉及品牌",
+	"appraisal.quantity.goods":"货物数量",
+	"appraisal.expected.identification.time":"期望鉴定时间",
+	"appraisal.base.info":"基本信息"
+}

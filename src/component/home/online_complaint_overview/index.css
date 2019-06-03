@@ -1,0 +1,271 @@
+/*经营看板*/
+.kanban{
+    height:auto;
+    display: block;
+    overflow: hidden;
+}
+.kanban.container .content {
+    background: transparent;
+    padding: 0;
+}
+.kanban .kanban-header{
+    height:auto;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.kanban .kanban-header .title{
+    font-size:36px;
+    color:#668fff;
+    margin-bottom: 15px;
+    font-family: PingFangSC-Semibold PingFangSC-Regular sans-serif;
+    margin-bottom: 0;
+    border-bottom: 4px solid rgba(239,232,123,.2);;
+}
+.kanban .kanban-header .rowd{
+    width:12px;
+    height:12px;
+    background: #dddddd;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.kanban .kanban-header .Statistics{
+    width:auto;
+    height:30px;
+    line-height: 30px;
+    font-size: 14px;
+    color:#000;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 30px;
+}
+.kanban .kanban-header .link{
+    display: block;
+    overflow: hidden;
+}
+.kanban .kanban-header .warpper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.kanban .kanban-header .cells , .kanban-header .cell  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.kanban .kanban-header .cells {
+    padding: 10px 0;
+}
+.kanban .kanban-header .cell .lable {
+    margin-right: 10px;
+    white-space:nowrap;
+}
+.kanban .kanban-header .cell {
+    margin-right: 30px;
+}
+.kanban .kanban-header .cell .select {
+    width: 150px;
+}
+.kanban .kanban-header .cell.right {
+    margin-right: 0;
+    flex: 1;
+    justify-content: flex-end;
+}
+.kanban .kanban-header .cell .tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+.kanban .kanban-header .cell .tag {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.kanban .kanban-header .cell .tag.active {
+    background: #668fff;
+    border-radius: 5px;
+    color: #fff;
+}
+.kanban .kanban-content {
+    margin-bottom: 20px;
+}
+.kanban .kanban-content:last-child {
+    margin-bottom: 0;
+}
+.kanban .column-index {
+    width: 10%;
+}
+.kanban .column-store-name {
+    width: 40%;
+}
+.kanban .to-top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 20;
+    text-align: center;
+    cursor: pointer;
+}
+.kanban .Operatact{
+    background: #6988de;
+}
+.kanban .Operatcolor{
+    color: #6988de;
+}
+
+.kanban .Map_title{
+    width:100%;
+    border-bottom: 2px solid #eeeeee;
+    font-size: 22px;
+    color:#000;
+    line-height: 38px;
+    padding:10px 0px;
+    background: #fff;
+}
+.kanban .Map_jindu{
+    width:100%;
+    height:35px;
+    background: url("../../../assets/images/Rectangle.png")center center;
+    background-size: 100%;
+    position: relative;
+}
+.kanban .Map_jindu .img{
+    height:40px;
+    margin-top: -5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.kanban .Map_jindu .title{
+    font-size: 14px;
+    color:#fff;
+    line-height: 35px;
+    padding-left: 10px;
+}
+.kanban .Map_wapper{
+    position: absolute;
+    left: 50%;
+}
+.kanban .maptubiao{
+    margin-top: 46px;
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+}
+.kanban .map_wrap {
+    flex: 1;
+}
+.kanban .Map_data{
+    width:350px;
+    height:525px;
+    border:1px solid #ccc;
+}
+.kanban .Map_data .ant-table-column-has-filters {
+    padding: 16px 0;
+}
+.kanban .Bargraph_head{
+    width:100%;
+    font-size: 22px;
+    color:#000;
+    line-height: 38px;
+    height: 96px;
+    padding:10px 0px;
+    text-align: center;
+}
+.kanban .Bargraph_wrapper{
+    height:auto;
+    flex: 1;
+}
+.kanban .pie-wrappwer.header-high {
+    zoom: 1;
+    display: block;
+}
+.kanban .header-high::after {
+    content:""; 
+    display: block; 
+    width: 100%;
+    height: 0;
+    line-height: 0;
+    clear:both;
+    opacity: 0;
+}
+.kanban .header-high .pie-pisition {
+    float: left;
+    width: 33.3333%;
+    flex: unset;
+}
+.kanban .Bargraph_wrapper .ant-table{
+    min-height: unset;
+}
+.kanban .pie-wrappwer{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+}
+.kanban .bar-complaints {
+    flex: 1;
+}
+.complaints-tabel-wrap {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.kanban .zanwu-history{
+    font-size: 24px;
+    position: absolute;
+    top:48%;
+    width:100%;
+    text-align: center;
+    color:#b3b3b3
+}
+.kanban .pie-pisition{
+    position: relative;
+}
+.kanban .MapWrapper{
+    background: #f0f2f5;
+   padding:40px 40px;
+}
+.kanban .MapWrapper_two{
+    background: #f0f2f5;
+    padding:20px 40px 20px 40px ;
+
+}
+.kanban .yue{
+    font-size: 14px;
+}
+.kanban .ant-tooltip-inner{word-break: break-all;max-width:300px!important;}
+
+.kanban .imgwrapicon{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    float: right;
+    margin-top: 10px;
+}
+.kanban .imgwrapicon img{
+    margin-bottom: 5px;
+}
+.kanban .ant-table-thead>tr>th{
+    background-color: rgba(239,232,123,.2);
+    color:#668fff;
+    font-size: 14px;
+    font-family: PingFangSC-Semibold PingFangSC-Regular sans-serif;
+}
+
+.kanban .kanban-content .wechat,
+.kanban .kanban-content .video{
+    float: left;
+    padding-right: 20px;
+    width: 50%;
+    box-sizing: border-box;
+}
+.kanban .kanban-content .video {
+    padding-right: 0;
+}

@@ -1,0 +1,104 @@
+.investigation-detail .bottom-line {
+    border-bottom: 1px solid #e8e8e8;
+}
+.investigation-detail .investigation-info-title {
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #002140;
+    height: 48px;
+    line-height: 36px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+}
+.investigation-detail .ant-row {
+    padding-bottom: 10px;
+}
+.investigation-detail .info-flex {
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #002140;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 32px;
+}
+.investigation-detail .info-flex .info-label {
+    width: 90px;
+    margin-bottom: 0;
+    padding-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.investigation-detail .info-flex .info-label.text {
+    width: auto;
+}
+.investigation-detail .info-flex .input-wrap {
+    flex: 1;
+    width: 1%;
+    color: #485564;
+}
+.investigation-detail .info-flex .input-wrap.text {
+    padding-left: 10px;
+}
+.investigation-detail .info-flex .input-wrap .ant-select,
+.investigation-detail .info-flex .input-wrap .ant-cascader-picker, 
+.investigation-detail .info-flex .input-wrap .ant-calendar-picker {
+    width: 100%;
+}
+.investigation-detail .info-flex .input-wrap textarea.ant-input {
+    height: 200px;
+}
+.investigation-detail .supplement-info {
+    padding: 20px 0;
+}
+.investigation-detail .supplement-info .msg {
+    min-height: 32px;
+    padding-left: 10px;
+    line-height: 32px;
+}
+.investigation-detail .supplement-info .tags {
+    line-height: 32px;
+    padding-left: 10px;
+}
+.investigation-detail .btns {
+    text-align: center;
+}
+.investigation-detail .btns .ant-btn {
+    margin-left: 15px;
+}
+.investigation-detail .btns .ant-btn:first-child {
+    margin-left: 0;
+}
+.investigation-detail .pic-wrap {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+.investigation-detail .pic-wrap img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.investigation-detail .inline-top {
+    align-items: unset;
+}
+.investigation-detail .tags {
+    width: 380px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+}
+.investigation-detail .close-tag {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+
+

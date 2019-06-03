@@ -1,0 +1,244 @@
+.case-detail .case-detail-flex {
+    display: flex;
+    flex-direction: row;
+}
+.case-detail .case-detail-flex .case-detail-label {
+    width: 105px;
+    margin-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.case-detail .case-detail-flex .case-detail-label.text {
+    width: auto;
+}
+.case-detail .case-detail-flex .case-detail-label span,
+.case-detail .case-detail-flex .case-detail-input-wrap .time{
+    line-height: 32px;
+    padding-left: 10px;
+}
+.case-detail .case-detail-flex .case-detail-input-wrap {
+    flex: 1;
+    width: 1%;
+    line-height: 32px;
+}
+.case-detail .ant-select, .case-detail .ant-calendar-picker {
+    width: 100%;
+}
+.case-detail .ant-row>div {
+    padding-bottom: 10px;
+}
+.case-detail .btns {
+    text-align: right;
+}
+.case-detail .btns .ant-btn {
+    margin-left: 15px;
+}
+.case-detail .case-prod .new-item .ant-upload-list-picture-card .ant-upload-list-item-info:before {
+    left: 0;
+}
+.case-detail .case-prod .new-item .ant-upload-list-picture-card .ant-upload-list-item, 
+.case-detail .case-prod .new-item .ant-upload.ant-upload-select-picture-card {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    float: none;
+}
+.case-detail .ant-input-disabled , .case-detail .ant-select-disabled .ant-select-selection {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: unset;
+}
+.case-detail .ant-select-disabled .ant-select-selection>span {
+    display: none;
+}
+.case-detail .case-tabs {
+    margin-bottom: 20px;
+}
+.case-detail .case-tabs .ant-card-body {
+    padding: 0;
+}
+.case-detail .case-tabs .ant-card-body .ant-tabs-tabpane {
+    padding: 20px;
+    padding-top: 0;
+    min-height: 500px;
+}
+.case-detail .tab-info {
+    position: relative;
+}
+.case-detail .tab-info .tab-info-content {
+    padding-top: 20px;
+}
+.case-detail .tab-info .edit {
+    position: absolute;
+    right: 20px;
+    top: 0;
+}
+.case-detail .case-label {
+    margin-right: 8px;
+}
+.case-detail .case-basic {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+.case-detail .case-basic .case-basic-info {
+    width: 60%;
+}
+.case-detail .case-basic .case-basic-classify {
+    width: 35%;
+}
+.case-detail .case-basic .case-basic-classify .case-basic-btn-wrap {
+    height: 50px;
+    padding-top: 18px;
+    text-align: right;
+}
+.case-detail .case-basic .case-title {
+    min-height: 50px;
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: 20px;
+    padding: 15px 0;
+}
+.case-detail .case-basic .case-title>span {
+    vertical-align: middle;
+}
+.case-detail .case-basic .case-title .case-title-small {
+    font-size: 14px;
+    color: red;
+    margin-left: 10px;
+}
+.case-detail .case-company-prod {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.case-detail .case-company-prod .case-prod {
+    width: 40%;
+}
+.case-detail .case-company-prod .case-company {
+    width: 56%;
+}
+.case-detail .case-company-prod .case-company .case-company-item {
+    padding: 10px;
+}
+.case-detail .case-company-prod .case-company .case-company-item:nth-child(even) {
+    background-color: #fafafa;
+}
+.case-detail .case-prod .case-prod-item .ant-row>div, .case-detail .case-prod .new-item>div {
+    text-align: center;
+}
+.case-detail .case-prod .case-prod-item .ant-row>div:first-child ,.case-detail .case-prod .new-item>div:first-child{
+    text-align: left;
+}
+.case-detail .case-prod .case-prod-item .ant-row {
+    line-height: 32px;
+}
+.case-detail .case-prod .case-prod-item .ant-row>div:first-child {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.case-detail .case-prod .new-item {
+    line-height: 32px;
+    height: 70px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.case-detail .case-detail-process .case-detail-flex .case-detail-label {
+    width: 130px;
+}
+.case-detail .case-detail-process .case-detail-flex .case-detail-label.text {
+    width: auto;
+}
+.case-classify-modal .case-classify-modal-info {
+    width: 300px;
+    margin: auto;
+}
+.case-classify-modal .case-classify-modal-info .case-classify-row .key,
+.case-classify-modal .case-classify-modal-info .input-wrap {
+    display: inline-block;
+    text-align: center;
+}
+.case-classify-modal .case-classify-modal-info .case-classify-row .key {
+    width: 30%;
+}
+.case-classify-modal .case-classify-modal-info .input-wrap {
+    width: 70%;
+}
+.case-classify-modal .case-classify-modal-info .case-classify-row .key.check {
+    text-align: left;
+}
+.case-detail .case-detail-flex .case-text-area-info{
+    margin-left: 5px;
+    margin-bottom: 0;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    padding-top: 5px;
+}
+.case-detail-flex .time{
+    line-height: 32px;
+}
+.case-prod-detail-modal .prod-detail-item {
+    width: 85%;
+    height: auto;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+.case-prod-detail-modal .prod-detail-item-info {
+    width: 45%;
+    line-height: 25px;
+    margin-right: 5px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    float: left;
+    margin-bottom: 2px;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 5px;
+}
+.case-prod-detail-modal p{
+    font-size: 14px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    margin-bottom: 2px;
+}
+.case-prod-detail-modal .prod-detail-img-info {
+    width: 10%;
+    display: block;
+    float: right;
+    margin-right: 10px;
+}
+.case-prod-detail-modal .prod-detail-img-info img{
+    width:40px;
+    height:40px;
+}
+.case-prod-detail-modal .prod-detail-item-invalid{
+    color:#ccc;
+    margin-right: 10px;
+    width:100px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.case-prod-item .invalid{
+    color:#ccc
+}
+.case-prod-item .case-prod-invalid{
+    color: #ccc;
+    line-height: 42px;
+    display: block;
+}
+.case-detail .ant-upload .anticon-upload {
+    margin-right: 6px;
+}

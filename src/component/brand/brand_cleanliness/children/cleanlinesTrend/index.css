@@ -1,0 +1,10 @@
+.root .empty {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.echar .chart .chart-content {
+    height: 450px;
+}

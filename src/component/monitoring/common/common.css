@@ -1,0 +1,124 @@
+.condition_item {
+	height: 39px;
+	margin-bottom: 10px;
+}
+.condition_edit {
+	color: #668FFF;
+	margin-right: 30px;
+	cursor: pointer;
+	line-height: 32px;
+}
+.condition_del {
+	color: #FF7875;
+	cursor: pointer;
+}
+.condition_item .ant-select, .condition_item .ant-select-enabled {
+	width: 90%
+}
+.add_condition {
+	color:#668fff;
+	text-align: center;
+	line-height: 32px;
+	cursor: pointer;
+}
+.ant-form-item .ant-form-item-control-wrapper .ant-form-item-children .query_condition {
+	color: #668fff;
+	border-color: #668fff;
+	margin-left: 0
+}
+.query_item {
+	width: 100%;
+	height: auto;
+	border: 1px solid #D9D9D9;
+	padding: 15px 0;
+	margin-bottom: 20px
+}
+.query_item .ant-form-item-label{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 39px;
+	line-height: 39px;
+}
+.query_item .ant-row {
+	height: 39px;
+}
+.search-form .query_item .ant-form-item-control {
+	height: 39px;
+	line-height: 39px;
+}
+.query_item .ant-row:last-child {
+	margin-bottom: 0;
+}
+
+.filter-condition-wrapper .filter-condition-wrapper-item{
+	margin-top: 15px
+}
+
+.filter-condition-wrapper .filter-condition {
+	padding: 20px 10px 0px 10px;
+	margin-bottom: 10px
+}
+.filter-condition-wrapper .filter-move {
+	padding: 20px 0px;;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center
+}
+.filter-condition-wrapper .filter-move span {
+	padding: 0 10px;
+	color: #668fff;
+	cursor: pointer;
+}
+.filter-condition-wrapper .filter-move .filter-ge {
+	color: #A6ADB4;
+	padding: 0
+}
+.filter-condition-wrapper .filter-condition-box {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row
+}
+.filter-condition-wrapper .filter-condition-box .filter-condition-list {
+	padding: 0 15px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.filter-condition-wrapper .filter-condition-box .filter-condition-item {
+	border: 1px solid #D9D9D9;
+	padding: 0 10px;
+	border-radius: 5px;
+	display: flex;
+}
+.filter-condition-wrapper .filter-condition-box .filter-condition-item .anticon-close {
+	margin-right: -10px;
+	cursor: pointer;
+	padding-left: 20px;
+}
+.filter-condition-wrapper .filter-condition-box .filter-condition-list-condition{
+	margin-right: 30px;
+}
+.filter-condition .filter-condition-condition{
+	overflow: hidden;
+}
+.filter-condition-wrapper .filter-condition-wrapper-item .ant-col-19 {
+
+	background: #f8f8f8;
+}
+.filter-condition .filter-condition-condition .ant-form-item {
+	padding-bottom: 5px;
+}
+.filter-condition-wrapper-item .filter-condition-filter-condition {
+	margin-bottom: 15px
+}
+.root  .ant-form-item-control>.ant-form-item:last-child,
+.root  .ant-form-item [class^=ant-col-]>.ant-form-item:only-child{
+	margin-bottom:0px
+}
+

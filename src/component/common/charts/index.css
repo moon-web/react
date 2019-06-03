@@ -1,0 +1,17 @@
+.chart .title-wrap {
+    display: table;
+    width: 100%;
+}
+.chart .chart-title {
+    height: 76px;
+    color: #002140;
+    font-size: 18px;
+    text-align: center;
+    display: table-cell;
+    padding: 10px 20px 0;
+}
+.chart .chart-content {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+}

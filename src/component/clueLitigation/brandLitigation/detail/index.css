@@ -1,0 +1,370 @@
+.lawsuits-detail .content {
+    padding: 0;
+    background: transparent;
+}
+.lawsuits-detail .sub-title {
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: rgba(0,0,0,0.85);
+    font-weight: 600
+}
+.lawsuits-detail .row {
+    display: flex;
+    flex-direction: row;
+    line-height: 32px;
+}
+.lawsuits-detail .row .lable {
+    padding: 0 10px;
+}
+.lawsuits-detail .row .row-info {
+    flex: 1;
+    padding-left: 10px;
+}
+.lawsuits-detail .detail-head .row .lable {
+    padding-left: 0;
+}
+.lawsuits-detail .head-l , .lawsuits-detail .head-r {
+    float: left;
+}
+.lawsuits-detail .head-l {
+    width: 70%;
+}
+.lawsuits-detail .head-l .ant-row {
+    height: 36px;
+    line-height: 36px;
+}
+.lawsuits-detail .head-r {
+    width: 30%;
+    text-align: right;
+}
+.lawsuits-detail .head-r .ant-btn {
+    margin-bottom: 16px;
+}
+.lawsuits-detail .head-r div:last-child .ant-btn{
+    margin-bottom: 0;
+}
+.lawsuits-detail .head-r .ant-btn.color-orange {
+    color: #fff;
+    background: #FFA540;
+    border-color: #FFA540;
+}
+.lawsuits-detail .head-r .ant-btn.color-orange:hover, 
+.lawsuits-detail .head-r .ant-btn.color-orange:focus {
+    background: #f7ba75;
+    border-color: #f7ba75;
+}
+.lawsuits-detail .details .operators {
+    border-top: 1px solid #D9D9D9;
+    padding-top: 30px;
+}
+.lawsuits-detail .details .store {
+    padding-bottom: 20px;
+    display: block;
+    overflow: hidden;
+}
+.lawsuits-detail .operators .type {
+    padding-top: 10px;
+    font-weight: 500;
+}
+.lawsuits-detail .operators .operators-detail {
+    padding: 10px 0;
+}
+.lawsuits-detail .party .search-form .sub-title {
+    margin-bottom: 16px;
+}
+.lawsuits-detail .party .search-form .ant-form-item {
+    padding-bottom: 16px;
+}
+.lawsuits-detail .search-form .ant-form-item textarea.ant-input {
+    height: 136px;
+    resize: none;
+}
+.lawsuits-detail .party .search-form .ant-form-item .ant-cascader-picker {
+    display: block;
+}
+.lawsuits-detail .party .operations {
+    text-align: right;
+    height: 32px;
+    line-height: 32px;
+}
+.lawsuits-detail .party .operations a {
+    margin-left: 15px;
+}
+.lawsuits-detail .logs {
+    padding: 10px 0 0;
+}
+.lawsuits-detail .process {
+    display: flex;
+    flex-direction: row;
+    /* height: 500px; */
+}
+.lawsuits-detail .process .process-title {
+    height: 32px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.85);
+}
+.lawsuits-detail .process .additional .process-title {
+    border-top: 1px solid #d9d9d9;
+    margin-bottom: 20px;
+}
+.lawsuits-detail .process .step-wrap {
+    width: 350px;
+    height: 600px;
+    padding-left: 20px;
+    /* border-right: 1px solid #D9D9D9; */
+}
+.lawsuits-detail .step-wrap .ant-steps-vertical {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.lawsuits-detail .process .step-info {
+    flex: 1;
+    height: 100%;
+    /* padding-top: 24px; */
+}
+.lawsuits-detail .process .step-info .step-inner {
+    overflow: auto;
+    width: 720px;
+    /* height: 440px; */
+    margin: auto;
+    background: #f6f6f6;
+}
+.lawsuits-detail .process .step-info .form {
+    margin: 0 auto;
+    padding: 20px;
+    background: transparent;
+}
+.lawsuits-detail .process .step-info .form.forensics {
+    border-top: 1px solid #d9d9d9;
+}
+.lawsuits-detail .process .step-info .form.forensics:nth-child(2){
+    border-top: unset;
+}
+.lawsuits-detail .step-info .form .submit-btns {
+    text-align: center;
+}
+.lawsuits-detail .step-info .form .submit-btns .ant-btn {
+    margin-left: 30px;
+}
+.lawsuits-detail .step-info .form .submit-btns .ant-btn:first-child,
+.lawsuits-detail .step-info .form .ant-upload .ant-btn {
+    margin-left: 0;
+}
+.lawsuits-detail .step-info .form .ant-form-item-label {
+    width: 140px;
+}
+.row-info p{
+    margin-bottom: 0px;
+}
+.row-info a{
+    word-break: break-all;
+}
+.empeyInfo{
+    text-align: center;
+    height: 300px;
+}
+.empeyInfo img{
+    margin-top: 50px;
+}
+.empeyInfo p{
+    margin-top: 10px
+}
+.details .ant-card-body{
+    padding-top: 0px;
+}
+.row .row-info img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.party-badge{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 10px 0
+}
+.operators .subjectIdentify-name{
+    font-weight: 600;
+    padding-top: 10px;
+}
+.operators .subjectIdentify-type{
+   font-size: 13px;
+   font-weight: 500;
+   margin-left: 10px;
+}
+.lawsuits-detail .operators .subjectIdentify-detail{
+    background: #f8f8f8;
+    display: block;
+    overflow: hidden;
+    display: flex;
+    padding: 26px;
+    margin: 16px 0px;
+    border-radius: 6px;
+}
+.lawsuits-detail .subjectIdentify-title {
+    margin-bottom: 10px;
+    padding: 0 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #343434;
+    background: unset;
+    height: auto;
+    line-height: unset;
+}
+.lawsuits-detail .row .beyond{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding: 0px 10px;
+}
+.lawsuits-detail .logs .ant-table-thead > tr > th,.lawsuits-detail .logs .ant-table-tbody > tr > td {
+    text-align: left
+}
+.lawsuits-detail .logs .ant-table-tbody > tr > td:nth-child(1) {
+    padding-left: 40px
+}
+.lawsuits-detail .logs .table-even {
+    background: #f8f8f8
+}
+.lawsuits-detail .logs .ant-table-tbody > tr > td {
+    border-bottom: 0px;
+    transition: all 0.3s, border 0s;
+}
+.lawsuits-detail .logs .table-reject {
+    color: #FF4D4F
+}
+.cluedetail-type-children{
+    width: 100%;
+}
+.cluedetail-type-children .row{
+    width: 50%;
+    display: block;
+    float: left;
+    display: flex;
+}
+.lawsuits-detail .party-detail-sub-box {
+    background: #f8f8f8;
+    padding: 20px 0 10px;
+}
+.lawsuits-detail .party-detail-sub-box .search-form {
+    background: none
+}
+.lawsuits-detail .party-detail-sub-box .party-detail-sub-box-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.lawsuits-detail .ant-badge-not-a-wrapper{
+    margin: 5px 20px;
+}
+.lawsuits-detail .party-detail-sub-box .party-detail-sub-box-type {
+    width: 90%;
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 10px;
+    margin-bottom: 10px
+}
+.lawsuits-detail .party-detail-sub-box .party-detail-sub-box-type .ant-form-item {
+    padding-bottom: 0;
+}
+.lawsuits-detail .party-detail-sub-box .party-detail-sub-box-contnet {
+    padding: 0 56px
+}
+.lawsuits-detail .party-detail-sub-box .party-detail-sub-box-item {
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom: 15px;
+    margin-bottom: 25px
+}
+.lawsuits-detail .party-detail-sub-box .party-detail-sub-box-item:last-child {
+    border-bottom: 0px
+}
+.lawsuits-detail .party-detail-sub-box .ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-thead > tr > th {
+    background: #E9EFFF;
+    border-radius: 4px 4px 0px 0px;
+}
+.lawsuits-detail .party-detail-sub-box .ant-table-small > .ant-table-content > .ant-table-body > table > .ant-table-tbody > tr {
+    background: #fff
+}
+.lawsuits-detail .party-detail-sub-box .ant-table-small > .ant-table-content > .ant-table-body{
+    padding: 0;
+    margin: 0
+}
+.lawsuits-detail .party-detail-sub-box .party-detail-sub-box-item .ant-btn, .lawsuits-detail .party-detail-sub-box .party-detail-sub-box-item .ant-btn {
+    margin: 20px auto;
+    margin-left: 3%
+}
+.lawsuits-detail .party-detail-sub-box .party-detail-sub-box-item>.ant-row {
+    padding-bottom: 0
+}
+.ligigation-modal .text-row-active{
+    background: #668fff;
+    color: #fff;
+}
+.ligigation-modal .text-row{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 0px;
+}
+.lawsuits-detail .process .step-process {
+    font-size: 14px;
+}
+.lawsuits-detail .process .step-process i{
+    margin: 0px 2px;
+    font-size: 12px;
+}
+.lawsuits-detail .process .step-process.submit {
+    color: #1367B2;
+}
+.lawsuits-detail .process .step-process.storage {
+    color: #7F889F;    
+}
+.lawsuits-detail .process .step-process.pass {
+    color: #31BF51;
+}
+.lawsuits-detail .process .step-process.close {
+    color: #FF4D4F;
+}
+.lawsuits-detail .process .ant-steps-dot .ant-steps-item-content {
+    max-width: 240px;
+    width: auto;
+}
+.lawsuits-detail .process .ant-steps-item-content .ant-steps-item-title a {
+    color: rgba(0, 0, 0, 0.85);
+}
+.lawsuits-detail .process .ant-steps .link-button {
+    color: inherit;
+}
+.lawsuits-detail .process .step-active .ant-steps-item-title a {
+    color: #668fff;
+}
+.lawsuits-detail .process .step-info .step-inner {
+    overflow: auto;
+    width: 80%;
+    /* height: 440px; */
+    margin: auto;
+    background: #f6f6f6;
+}
+.lawsuits-detail .process .step-info .step-inner::-webkit-scrollbar {
+    width:6px;
+}
+.lawsuits-detail .process .step-info .step-inner::-webkit-scrollbar-track {
+    background:#e8e8e8
+}
+.lawsuits-detail .process .step-info .step-inner::-webkit-scrollbar-thumb{
+    background:#BCBDBE;
+    border-radius:4px;
+}
+.lawsuits-detail .process .step-info .suit-case{
+    margin: 20px;
+}
+.lawsuits-detail .head-r .offline-btns{
+    margin-top: 10px;
+    width: 120px;
+}
+.lawsuits-detail .row .enter {
+    white-space: pre-wrap
+}

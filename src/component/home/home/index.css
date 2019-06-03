@@ -1,0 +1,128 @@
+.Admincontent .top_sub {
+    display: flex;
+    flex-direction: row;
+}
+.Admincontent .left_list {
+    flex: 1;
+    margin-left: 40px;
+}
+.Admincontent a {
+    color: #000;
+}
+.Admincontent a:hover {
+    color: #000;
+}
+.Admincontent .left_list:first-child {
+    margin-left: 0;
+}
+.Admincontent .top_name {
+    height: 52px;
+    line-height: 52px;
+    background-color: #ddd;
+    font-size: 14px;
+    color: #000;
+    padding: 0 16px;
+}
+.Admincontent .left_content {
+    height: 567px;
+    padding-top: 40px;
+}
+.Admincontent .left_content .left_content_lis {
+    margin-bottom: 35px;
+}
+.Admincontent .left_content .left_content_lis:last-child {
+    margin-bottom: 0;
+}
+.Admincontent .left_content .contents {
+    padding: 0 20px;
+    background-color: #f5f5f5;
+    height: 100%;
+}
+.Admincontent .left_content .contents .displays {
+    padding-top: 150px;
+}
+.Admincontent .left_content .contents .displays .msg {
+    white-space: normal;
+    line-height: 30px;
+    text-align: center;
+}
+.Admincontent .left_content .contents .displays .img-wrap {
+    overflow: hidden;
+}
+.Admincontent .left_list:first-child .contents {
+    background-color: #fff;
+    padding: 0;
+}
+.Admincontent .Message_list {
+    line-height: 22px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.Admincontent .Message_list .number {
+    margin-right: 10px;
+    color: #668fff
+}
+.Admincontent .left_content_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Admincontent .left_content_item .left_title {
+    line-height: 26px;
+    padding: 0 10px;
+    width: 80%;
+}
+.Admincontent .left_content_item .left_imgs {
+    width: 20%;
+    height: 102px;
+    line-height: 102px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.Admincontent .homeContentTop {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 30px 0;
+    justify-content: center
+}
+.Admincontent .homeBoxKan {
+    background: #fff;
+    padding-top: 24px;
+    color: #000;
+}
+.Admincontent .homeTitleKan {
+    font-size: 18px;
+    color: #668fff;
+    margin-bottom: 30px;
+    padding-left: 35px;
+    background: #FCFAE5;
+    height: 55px;
+    line-height: 55px;
+}
+.Admincontent .left_content_item .left_imgs img {
+    width: 40%;
+    vertical-align: middle;
+}
+.Admincontent .homeItemCon {
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.Admincontent .homeContentTop .caseLitigation-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 110px;
+    align-items: center
+}
+.Admincontent .homeContentTop .caseLitigation-item .caseLitigation-more {
+    font-size: 18px;
+    color: #000;
+    margin: 8px 0;
+}
+.Admincontent .homeContentTop .caseLitigation-item .caseLitigation-more a {
+    color: #668fff
+}
+.Admincontent .homeBoxKan .caseLitigationBox {
+    padding-bottom: 40px
+}
